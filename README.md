@@ -294,4 +294,9 @@ yarn remove tailwindcss autoprefixer postcss
 | watch       | Run build when files change.                                   | npm run watch       | yarn watch       | ng build --watch --configuration development                |
 | test        | Run your unit tests                                            | npm run test        | yarn test        | ng test                                                     |
 | lint        | Use ESLint to lint your app                                    | npm run lint        | yarn lint        | ng lint                                                     |
-| analyze     | Open webpack-bundle-analyzer                                   | npm run analyze     | yarn analyze     | webpack-bundle-analyzer dist/angular-boilerplate/stats.json |
+| analyze     | Open webpack-bundle-analyzer   
+                                | npm run analyze     | yarn analyze     | webpack-bundle-analyzer dist/angular-boilerplate/stats.json |
+$ git fetch --all
+$ git checkout feature/auth
+$ git checkout develop
+$ git merge feature/auth
